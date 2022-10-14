@@ -1,0 +1,71 @@
+html{
+  background-color: black;
+  
+}
+body{
+  cursor: default;
+}
+
+canvas{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+  mix-blend-mode: exclusion;
+  -webkit-animation: fadein 20s; /* Safari, Chrome and Opera > 12.1 */
+  
+}
+
+
+
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+
+#headline{
+  color: #ffffff;
+  position: absolute;
+  z-index: 1;
+  right: 32%;
+    top: 13%;
+    font-size: 1.6em;
+    font-family: 'Silkscreen', cursive;
+    
+}
+ .main #text{
+  color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 1;
+  right: 15%;
+  top: 59%;
+  transform: translateX(47%);
+  letter-spacing: 0.4em;
+  width: 387px;
+  height: 61px;
+  font-family: 'Matrix', sans-serif;
+}
+
+/* ////// */
+#writing{
+  z-index: 1;
+    color: white;
+    position: absolute;
+    left: 10%;
+    bottom: 35%;
+    font-family: 'Matrix', sans-serif;
+    letter-spacing: 0.4em;
+}
+
+#click{
+  z-index: 1000;
+  color:  #9c91da;
+  position: absolute;
+  left: 10.2%;
+  top: 91.2%;
+  font-family: 'Silkscreen', cursive;
+}

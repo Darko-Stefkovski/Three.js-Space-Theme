@@ -1,0 +1,3 @@
+To run Three.js just type 
+npm run dev 
+In the terminal of your code editor.
